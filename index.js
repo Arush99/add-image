@@ -83,6 +83,9 @@ $(document).ready(function () {
 
 
     // select only one primary
+
+
+    // primary secondry
     $(".append").click(function () {
         $(".in").click(function () {
             $(".drp").change(function () {
@@ -105,6 +108,8 @@ $(document).ready(function () {
     //         }
     //     })
     // })
+
+    //image handling
     $(document).on("change", ".img2", function () {
         const fileInput = this;
         const preview = $(fileInput).closest(".Container").find(".imgTitle img")[0];
