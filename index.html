@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>selector assignment 2</title>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bd">
+    <hr>
+
+    <div class="main">
+        <div class="firsthead">
+            <p>Property Image</p>
+        </div>
+        <div class="Container">
+            <div class="imgTitle">
+                <img src="" class="imageDisplay" style="display: none;" alt="Property Image">
+            </div>
+            <div class="append">
+                <div class="in">
+                    <!-- <input type="text" style="margin-right: -2em;"> -->
+                    <input class="img2" type="file" name="files[]" multiple>
+                    <!-- <input class="border" type="file" id="myfile" name="myfile" multiple> -->
+
+
+                    <select name=" drp" class="drp">
+                        <option value="primary" class="primary">Primary Image</option>
+                        <option value="secondary" class="secondary">Secondary Image</option>
+                    </select>
+                    <!-- <button class="rmv" style="border-style: none; background-color: white;">Remove</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="add"> Add Another </button>
+</body>
+
+</html>

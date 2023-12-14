@@ -1,0 +1,62 @@
+body {
+    width: 70%;
+    height: 100%;
+}
+
+.firsthead {
+    border: 1px solid rgb(214, 210, 210);
+    background-image: linear-gradient(rgb(211, 209, 209), white);
+    padding-left: 20px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+
+.Container2 {
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+
+.imgTitle {
+    border: 1px solid rgb(207, 203, 203);
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.append {
+    border: 1px solid rgb(184, 179, 179);
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.drp {
+    width: 20%;
+}
+
+.add {
+    display: flex;
+    border: 2px solid rgb(184, 179, 179);
+    border-top: 1px white;
+    width: 100.3%;
+    height: 20%;
+    background-color: white;
+    padding-left: 180px;
+}
+
+.bd2 {
+    width: 70%;
+    height: 100%;
+}
+
+.imageDisplay {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 80%;
+    width: 80%;
+}
